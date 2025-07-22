@@ -31,10 +31,16 @@ const Table = (props: TableProps) => {
               key={task.id}
               className="border-t border-gray-200 hover:bg-gray-50 transition"
             >
-              <td className={task.isCompleted ? 'line-through text-gray-500' : ''}>
-                {task.title}
+              <td className="px-4 py-3">
+                <span className={task.isCompleted ? 'line-through text-gray-500' : ''}>
+                  {task.title}
+                </span>
               </td>
-              <td className="px-4 py-3">{task.description ? task.description : '-'}</td>
+              <td className="px-4 py-3">
+                <span className={task.isCompleted ? 'line-through text-gray-400' : ''}>
+                  {task.description || '-'}
+                </span>
+              </td>
               <td className="px-4 py-3">
                 <button
                   onClick={() => onToggle(task)}

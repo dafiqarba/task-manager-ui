@@ -1,4 +1,4 @@
-# TaskFlow — Task Management UI (Frontend Pre-Test)
+# TaskApp — Task Management UI (Frontend Pre-Test)
 
 A clean, responsive task management web app built with React, TailwindCSS, Zustand, and TypeScript. This UI allows users to create, edit, delete, and manage tasks efficiently — including PDF export functionality.
 
