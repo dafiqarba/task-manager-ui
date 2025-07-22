@@ -3,7 +3,7 @@
 A clean, responsive task management web app built with React, TailwindCSS, Zustand, and TypeScript. This UI allows users to create, edit, delete, and manage tasks efficiently — including PDF export functionality.
 
 ## 🚀 Live Demo
-[Live demo](https://task-manager-riv99r2bt-dafiqarbas-projects-b75db4f5.vercel.app?_vercel_share=kggYdFJWAx5rSYeESoANwOM6vqAi8VHc)
+[Live demo](https://task-manager-ui-three.vercel.app)
 
 
 
